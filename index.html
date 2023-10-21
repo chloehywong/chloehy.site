@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chloe's Site</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles.css">
+        <link href="./projects.html">
+        <script src="https://kit.fontawesome.com/4509a2c7b8.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-cta">
+                <img class="chloe-icon" src="./images/chloe.png"/>
+                <a href=" https://wa.me/447935406301" target="_blank"><button class="talk-btn">Let's talk</button></a>
+            </div>
+
+            <div class="header-intro">
+                <h1 class="header-name">Hi, I'm Chloe Wong</h1>
+                <div class="sub-header">
+                    <h3 class="sub-header-text">UX / Web designer</h3>
+                    <h3 class="sub-header-text">Based in London</h3>
+                </div>
+                <div class="header-skills-list">
+                    <img src="./images/html.png" width="55px"/> 
+                    <img src="./images/css.png" width="55px"/> 
+                    <img src="./images/js.png" width="55px"/> 
+                    <img src="./images/react.png" width="55px"/> 
+                    <img src="./images/figma.png" width="55px"/> 
+                    <img src="./images/xd.png" width="55px"/> 
+                </div>
+            </div>
+        
+            <div class="header-contact-list">
+                <a href="https://github.com/chloehywong" target="_blank"><img class="icon-github" src="./images/github.png" width="45px"/></a>
+                <a href="https://www.linkedin.com/in/chloehy-wong/" target="_blank"><img class="icon-linkedin"  src="./images/linkedin.png" width="45px"/></a>
+                <a href="mailto:wonghoyee0114@gmail.com"><img class="icon-gmail"  src="./images/gmail.png" width="45px"/></a>
+                <a href="https://drive.google.com/file/d/1R9Vq1JcH_1Mw36-y_ZCW6DleBT14ZLhv/view?usp=sharing" target="_blank"><img class="icon-cv"  src="./images/cv.png" width="45px"/></a>
+            </div>  
+        </div>
+
+        <div class="header-mid-message">
+            <h2>Focused on creating beautiful digital experiences and solving real-world problems</h2>
+        </div>
+
+        <marquee behavior="Alternate" direction="left" Scrollamount=10 class="marquee">
+            <p class="marquee-text"> 
+                <span>🖤</span> Web design <span>🖤</span> UX design <span>🖤</span> Mobile App Design <span>🖤</span> UI design <span>🖤</span>
+            </p>
+        </marquee>
+
+        <section class="featured-projects">
+            <h1 class="featured-projects-title">Featured Projects</h1>
+            <div class="featured-projects-area">
+
+                <div class="project" onclick="popUp1()">
+                    <img class="project-cover" src="./images/openoven-cover.jpg"/>
+                    <object class="project-tag tag">UX Project</object>
+                    <h4 class="project-title">Creating A New Smart Oven App</h4>
+                    <p class="project-intro">Designing an app that could allows users to fully operate their buttonless oven.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">Adobe XD</object>
+                        <object class="bottom-obj tag">iOS Setting</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-1">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-1').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/openoven-cover.jpg"/>
+                        <div class="modal-content">
+                            <h1>UX Project: Smart Oven App</h1>
+                            <h3>Designing an app that could allows users to fully operate their buttonless oven.</h3><hr>
+                            <h4>Time: 4 days</h4>
+                            <h4>Setting: IOS</h4>
+                            <h4>Materials: Adobe XD</h4>
+                            <a href="./ux-project-smart-oven.html" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp2()">
+                    <img class="project-cover project-cover-twimba" src="./images/Twimba-cover.png"/>
+                    <object class="project-tag tag">JS Project</object>
+                    <h4 class="project-title">Twitter Clone</h4>
+                    <p class="project-intro">Developing a Twitter clone  to render out some tweets from prepared data.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-2">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-2').style.display='none'">&times;</span>
+                        <img class="modal-cover twimba-modal-cover" src="./images/Twimba-cover.png"/>
+                        <div class="modal-content">
+                            <h1>JS Project: Twitter-Clone</h1>
+                            <h3>Developing a Twitter clone to render out some tweets from prepared data. Each of the tweets can be liked, commented and retweeted. Also, the user can create a new post.</h3><hr>
+                            <h4>JS Skills:</h4>
+                            <ul>
+                                <li>HTML tag: textarea</li>
+                                <li>.forEach()</li>
+                                <li>Data attributes</li>
+                                <li>Conditionally render styles</li>
+                                <li>NOT operator (!)</li>
+                                <li>CNDs - add icons & generate UUIDs</li>
+                                <li>.filter()</li>
+                            </ul>
+                            <a href="https://twitter-clone-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp3()">
+                    <img class="project-cover" src="./images/Colour-picker-cover.png"/>
+                    <object class="project-tag tag">API Project</object>
+                    <h4 class="project-title">API-based Colour Scheme Generator</h4>
+                    <p class="project-intro">This project is interacting with <i>The Color API</i></p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">API</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-3">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-3').style.display='none'">&times;</span>
+                        <img class="modal-cover colour-modal-cover" src="./images/Colour-picker-cover.png"/>
+                        <div class="modal-content">
+                            <h1>API Project: Colour Scheme Generator</h1>
+                            <h3>This is my first API project by practicing with "fetch" request to interact with The Color API. Understanding the servers & clients. Sending requests & interacting with the response in JSON format.</h3><hr>
+                            <h4>Requirements:</h4>
+                            <h4>Use the API from <a href="https://www.thecolorapi.com/" target="_blank">The Color API</a></h4>
+                            <a href="https://color-picker-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html">
+                <button class="project-btn">See more</button>
+            </a>
+        </section>
+        <footer>
+            <h6 class="footer-text">Designed with <img src="./images/red-heart.png" width="15px"/> by Chloe Wong</h6>
+            <div class="footer-contact-list">
+                <a href="https://github.com/chloehywong" target="_blank"><img class="footer-github" src="./images/github.png" width="25px"/></a>
+                <a href="https://www.linkedin.com/in/chloehy-wong/" target="_blank"><img class="footer-linkedin"  src="./images/linkedin.png" width="25px"/></a>
+                <a href="mailto:wonghoyee0114@gmail.com"><img class="footer-gmail"  src="./images/gmail.png" width="25px"/></a>
+                <a href="https://drive.google.com/file/d/1R9Vq1JcH_1Mw36-y_ZCW6DleBT14ZLhv/view?usp=sharing" target="_blank"><img class="footer-cv"  src="./images/cv.png" width="25px"/></a>
+            </div> 
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chloe's Site: projects</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles.css">
+        <link href="./index.html">
+        <script src="https://kit.fontawesome.com/4509a2c7b8.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="index.html"><img class="icon-arrow" src="./images/round-arrow-blk.png"/></a>
+        <h1 class="projectpage-title">Featured Projects</h1>
+        <section class="featured-projects">
+            <div class="featured-projects-area">
+
+                <div class="project" onclick="popUp1()">
+                    <img class="project-cover" src="./images/openoven-cover.jpg"/>
+                    <object class="project-tag tag">UX Project</object>
+                    <h4 class="project-title">Creating A New Smart Oven App</h4>
+                    <p class="project-intro">Designing an app that could allows users to fully operate their buttonless oven.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">Adobe XD</object>
+                        <object class="bottom-obj tag">iOS Setting</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-1">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-1').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/openoven-cover.jpg"/>
+                        <div class="modal-content">
+                            <h1>UX Project: Smart Oven App</h1>
+                            <h3>Designing an app that could allows users to fully operate their buttonless oven.</h3><hr>
+                            <h4>Time: 4 days</h4>
+                            <h4>Setting: IOS</h4>
+                            <h4>Materials: Adobe XD</h4>
+                            <a href="./ux-project-smart-oven.html" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp2()">
+                    <img class="project-cover project-cover-twimba" src="./images/Twimba-cover.png"/>
+                    <object class="project-tag tag">JS Project</object>
+                    <h4 class="project-title">Twitter Clone</h4>
+                    <p class="project-intro">Developing a Twitter clone  to render out some tweets from prepared data.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-2">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-2').style.display='none'">&times;</span>
+                        <img class="modal-cover twimba-modal-cover" src="./images/Twimba-cover.png"/>
+                        <div class="modal-content">
+                            <h1>JS Project: Twitter-Clone</h1>
+                            <h3>Developing a Twitter clone to render out some tweets from prepared data. Each of the tweets can be liked, commented and retweeted. Also, the user can create a new post.</h3><hr>
+                            <h4>JS Skills:</h4>
+                            <ul>
+                                <li>HTML tag: textarea</li>
+                                <li>.forEach()</li>
+                                <li>Data attributes</li>
+                                <li>Conditionally render styles</li>
+                                <li>NOT operator (!)</li>
+                                <li>CNDs - add icons & generate UUIDs</li>
+                                <li>.filter()</li>
+                            </ul>
+                            <a href="https://twitter-clone-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp3()">
+                    <img class="project-cover" src="./images/Colour-picker-cover.png"/>
+                    <object class="project-tag tag">API Project</object>
+                    <h4 class="project-title">API-based Colour Scheme Generator</h4>
+                    <p class="project-intro">This project is interacting with <i>The Color API</i></p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">API</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-3">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-3').style.display='none'">&times;</span>
+                        <img class="modal-cover colour-modal-cover" src="./images/Colour-picker-cover.png"/>
+                        <div class="modal-content">
+                            <h1>API Project: Colour Scheme Generator</h1>
+                            <h3>This is my first API project by practicing with "fetch" request to interact with The Color API. Understanding the servers & clients. Sending requests & interacting with the response in JSON format.</h3><hr>
+                            <h4>Requirements:</h4>
+                            <h4>Use the API from <a href="https://www.thecolorapi.com/" target="_blank">The Color API</a></h4>
+                            <a href="https://color-picker-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp4()">
+                    <img class="project-cover" src="./images/SC-cover.png"/>
+                    <object class="project-tag tag">UX Project</object>
+                    <h4 class="project-title">A UX Case Study</h4>
+                    <p class="project-intro">Creating a new mobile app for an existing brand - Secret Cinema</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">Adobe XD</object>
+                        <object class="bottom-obj tag">iOS Setting</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-4">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-4').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/SC-cover.png"/>
+                        <div class="modal-content">
+                            <h1>A UX Case Study</h1>
+                            <h3>Creating a new mobile app for an existing brand - Secret Cinema</h3><hr>
+                            <h4>Time: 1 month</h4>
+                            <h4>Setting: IOS & Android</h4>
+                            <h4>Materials: Adobe XD, Canva, draw.io iMovie</h4>
+                            <a href="./ux-project-sc.html" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp5()">
+                    <img class="project-cover" src="./images/TJ-cover.png"/>
+                    <object class="project-tag tag">React App</object>
+                    <h4 class="project-title">My Travel Journal</h4>
+                    <p class="project-intro">Building my first React app by using basic React skills, such as Props, JSX, Mapping data etc.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">React</object>
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-5">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-5').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/TJ-cover.png"/>
+                        <div class="modal-content">
+                            <h1>My Travel Journal - React app</h1>
+                            <h3>Building my first React app by using basic React skills, such as Props, JSX, Mapping data and Custom components.</h3><hr>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Data array in a separate.js file </li>
+                                <li>“this” Keyword</li>
+                                <li>Use.map()</li>
+                                <li>Use Props</li>
+                                <li>Syled & Polished</li>
+                            </ul><br>
+                            <a href="https://my-travel-journal-app-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp6()">
+                    <img class="project-cover" src="./images/RPG- cover.png"/>
+                    <object class="project-tag tag">JS Project</object>
+                    <h4 class="project-title">ToyStory RPG game</h4>
+                    <p class="project-intro">Building a RPG game for two characters battle by rolling the dice.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-6">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-6').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/RPG- cover.png"/>
+                        <div class="modal-content">
+                            <h1>ToyStory RPG game</h1>
+                            <h3>Building a RPG game for two characters battle by rolling the dice.</h3><hr>
+                            <h4>Game rules:</h4>
+                            <ol>
+                                <li>Set the hero’s heath at 80 while the monsters at 20 </li>
+                                <li>Three dices of hero VS One dice for monster</li>
+                                <li>When the first monster lose, second monster will join the battle.</li>
+                                <li>he hero will need to against three monsters in total to determine the battle result.</li>
+                            </ol>
+                            <h4>JS Skills:</h4>
+                            <ul>
+                                <li>Import / export files</li>
+                                <li>“this” Keyword</li>
+                                <li>Conditional binary operator</li>
+                                <li>Booleans</li>
+                                <li>innerHTML - HTML DOM element</li>
+                                <li>setTimeout()</li>
+                            </ul><br>
+                            <a href="https://toystory-rpg-game-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" onclick="popUp7()">
+                    <img class="project-cover" src="./images/RO-cover.png"/>
+                    <object class="project-tag tag">JS Project</object>
+                    <h4 class="project-title">Restaurant Ordering app</h4>
+                    <p class="project-intro">Building a seamless mobile ordering app for a restaurant.</p>
+                    <div class="bottom-tags">
+                        <object class="bottom-obj tag">JS</object>
+                        <object class="bottom-obj tag">HTML</object>
+                        <object class="bottom-obj tag">CSS</object>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-7">
+                    <div class="modal-contentBox">
+                        <span class="close-btn" onclick="document.getElementById('myModal-7').style.display='none'">&times;</span>
+                        <img class="modal-cover" src="./images/RO-cover.png"/>
+                        <div class="modal-content">
+                            <h1>Restaurant Ordering app</h1>
+                            <h3>Building a seamless mobile ordering app for a restaurant. </h3><hr>
+                            <h4>Full stages:</h4>
+                            <ol>
+                                <li>Click + button, the item will be added to the list of order.</li>
+                                <li>The list of order will sum up the total amount.</li>
+                                <li>The request of card details pop up will appear when the user click “complete order”  User will get the alert if some of the text areas are empty.</li>
+                                <li>The ‘Thank you’ message will show after the payment process is done.</li>
+                            </ol>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Follow the design spec</li>
+                                <li>Render the menu options using JavaScript</li>
+                                <li>Be able to add/remove items</li>
+                                <li>Have a payment modal with compulsory form inputs</li>
+                            </ul><br>
+                            <a href="https://restaurant-ordering-app-chloehy.netlify.app/" target="_blank"><button class="modal-btn">Click here</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project hide"></div>
+                <div class="project hide"></div>
+            </div>
+        </section>
+
+        <footer>
+            <h6 class="footer-text">Designed with <img src="./images/red-heart.png" width="15px"/> by Chloe Wong</h6>
+            <div class="footer-contact-list">
+                <a href="https://github.com/chloehywong" target="_blank"><img class="footer-github" src="./images/github.png" width="25px"/></a>
+                <a href="https://www.linkedin.com/in/chloehy-wong/" target="_blank"><img class="footer-linkedin"  src="./images/linkedin.png" width="25px"/></a>
+                <a href="mailto:wonghoyee0114@gmail.com"><img class="footer-gmail"  src="./images/gmail.png" width="25px"/></a>
+                <a href="https://drive.google.com/file/d/1R9Vq1JcH_1Mw36-y_ZCW6DleBT14ZLhv/view?usp=sharing" target="_blank"><img class="footer-cv"  src="./images/cv.png" width="25px"/></a>
+            </div> 
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
