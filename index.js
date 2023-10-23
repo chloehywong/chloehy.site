@@ -27,11 +27,9 @@ function popUp5() {
   modalTj.style.display = 'block';
 }
 
-
 function popUp6() { 
   modalRpg.style.display = 'block';
 }
-
 
 function popUp7() { 
   modalRo.style.display = 'block';
